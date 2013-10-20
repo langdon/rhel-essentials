@@ -2,7 +2,9 @@ rhel-essentials
 ===============
 
 All the stuff you need on rhel (some straight rpms but also repos rpms)
-
+Notes
+===
+hmmm.. rpmdevtools and bash-completion conflict
 
 Steps
 ====
@@ -16,3 +18,9 @@ Steps
 8. install tmux
 9. install bash-completion
 10. 
+
+
+RPM Notes
+====
+* wget http://pkgs.repoforge.org/tmux/tmux-1.6-1.el6.rf.x86_64.rpm
+* wget http://pkgs.repoforge.org/bash-completion/bash-completion-20060301-1.el6.rf.noarch.rpm
